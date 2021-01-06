@@ -6,7 +6,7 @@ user_input = int(input("How many values do you want to have?"))
 def fib(n):
     number_1 = 0
     number_2 = 1
-    if n < 0:
+    if n <= 0:
         print('Not a valid number please try again')
     elif n == 1:
         print(number_1)
